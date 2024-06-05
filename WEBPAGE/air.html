@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./air.css">
+    <link rel="icon" type="png" href="./fligth.png">
+    <link rel="html" href="./payment.html">
+    
+</head>
+<body>
+    <div class="container">
+        <marquee behavior="scroll" direction="left"><h1>AIRPLANE TICKET BOOKING!!!</h1></marquee>
+        <form action="#" method="post">
+
+            <div class="Firstname">
+                <label for="name">FIRSTNAME:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="lastname">
+                <label for="lname">LASTNAME:</label>
+                <input type="text" id="lname" name="name" required>
+            </div>
+          
+            <div class ="phoneno">
+                <label for="phoneno">PHONE NO:</label>
+                <input type="text" name="phone" id="phoneno" pattern="[6-9]{1}[0-9]{9}" required>
+            </div>
+
+            <div class="departure">
+            <label for="from">DEPARTURE-FROM:</label>
+                <input type="text" id="from" name="from" required>
+</div>
+            <div class="ARRIVAL">
+                <label for="to">ARRIVAL-To:</label>
+                <input type="text" id="to" name="to" required>
+            </div>
+            <div class="no-of-persons">
+                <label for="no-of-persons">NO-OF-PERSONS:</label>
+                <input type="text" name="no-of-persons" id="no-of-persons" pattern="[0-9]{1}">
+            </div>
+
+            <div class="cabin">
+                <label for="to">CABIN-CLASSES:</label><br>
+                <center>
+                <input type="radio" option value="1">Economy</option><br>
+                <input type="radio" option value="2"> Premium Economy</option><br>
+                <input type="radio" option value="3">Business</option><br>
+                <input type="radio" option value="4"> First Class</option>
+                    
+                    <marquee behavior="scroll" direction="left"><h4>while submit it go for payment option!!!</h4></marquee>
+                    <button type="Button" claas="button"><a href="./paymentoption.html">SUBMIT</a></button>
+                    <!-- <button type="button"><a href="./end.html"> SUBMIT</a></button> -->
+                </div>
+            
+                </center>
+            </div>
+            
+
+
+    
+    
+
+</body>
+</html>

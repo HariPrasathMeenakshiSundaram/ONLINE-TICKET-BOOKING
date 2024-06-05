@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(./end.jpg);
+    background-size: 100%;
+    color: rgb(255, 0, 179);
+
+}
+h1{
+    text-align:center;
+}
